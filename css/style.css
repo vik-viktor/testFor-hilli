@@ -1,0 +1,92 @@
+img {
+	display: inline-block;
+	max-width: 100%;
+	margin: 0;
+}
+.top-panel {
+	padding-top: 20px;
+}
+.top-panel .logo-block {
+	padding-bottom: 20px;
+}
+.top-panel .logo-block img {
+	max-height: 100px;
+}
+.left-panel .but {
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+.left-panel .but .btn {
+	display: block;
+	width: 100%;
+}
+.truck-list .truck-row {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.truck-list .truck-item-headers {
+	background: #9c9c9c;
+	color: #fff;
+}
+.truck-list .truck-item:nth-child(odd) {
+	background: #ddd;
+}
+.truck-list .truck-item:hover {
+	background: #f3f0f0;
+}
+.truck-list .truck-item .col.truck-but-edit {
+	text-align: right;
+}
+.modal {
+	/*display: block;*/
+	background: rgba(0,0,0,0.4);
+}
+.modal .modal-dialog {
+	display: table;
+	table-layout: fixed;
+	height: 100%;
+	margin: 0 auto;
+}
+.modal .modal-dialog .modal-content {
+	display: table-cell;
+	vertical-align: middle;
+	background: none;
+	border: none;	
+}
+.modal .modal-dialog .modal-form-block {
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    position: relative;
+}
+.modal .modal-dialog .modal-form-block .close {
+	position: absolute;
+	background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    opacity: 1;
+	right: -40px;
+	top: -40px;
+	width: 30px;
+	height: 30px;
+}
+.modal .modal-dialog .modal-form-block .close:before {
+	content: '+';
+	display: block;
+	font-size: 30px;
+	color: #000;
+	position: absolute;
+    top: -2px;
+    left: 6px;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+}
+
+
+
